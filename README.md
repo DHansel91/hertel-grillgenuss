@@ -1,6 +1,8 @@
 # Hertel Grillgenuss Standortsuche – Home Assistant Integration
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/hacs/integration)
+[![GitHub release](https://img.shields.io/github/v/release/DHansel91/hertel-grillgenuss)](https://github.com/DHansel91/hertel-grillgenuss/releases)
+[![Validate](https://img.shields.io/github/actions/workflow/status/DHansel91/hertel-grillgenuss/validate.yml?branch=main&label=validate)](https://github.com/DHansel91/hertel-grillgenuss/actions/workflows/validate.yml)
 
 Eine Home Assistant HACS-Integration, die die Standortsuche von [Hertel Grillgenuss](https://hertel-grillgenuss.de) abfragt und als Sensor bereitstellt.
 
