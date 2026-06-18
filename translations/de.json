@@ -1,0 +1,44 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Hertel Grillgenuss Standortsuche einrichten",
+        "description": "Gib deine Koordinaten ein, um nahegelegene Hertel Grillgenuss Standorte zu finden.",
+        "data": {
+          "latitude": "Breitengrad (Latitude)",
+          "longitude": "Längengrad (Longitude)",
+          "zipcode": "PLZ-Filter (optional)"
+        },
+        "data_description": {
+          "latitude": "Dein Breitengrad, z.B. 49.6744",
+          "longitude": "Dein Längengrad, z.B. 12.1489",
+          "zipcode": "Nur Standorte dieser Postleitzahl anzeigen (leer = alle)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Verbindung zur Website fehlgeschlagen. Bitte prüfe deine Internetverbindung.",
+      "unknown": "Unbekannter Fehler. Bitte prüfe die Logs."
+    },
+    "abort": {
+      "already_configured": "Diese Integration ist bereits eingerichtet."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Hertel Grillgenuss Optionen",
+        "data": {
+          "latitude": "Breitengrad (Latitude)",
+          "longitude": "Längengrad (Longitude)",
+          "zipcode": "PLZ-Filter (optional)",
+          "scan_interval": "Aktualisierungsintervall (Minuten)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Verbindung zur Website fehlgeschlagen.",
+      "unknown": "Unbekannter Fehler."
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "entity": {
+    "sensor": {
+      "standorte": {
+        "default": "mdi:food-drumstick"
+      }
+    }
+  }
+}

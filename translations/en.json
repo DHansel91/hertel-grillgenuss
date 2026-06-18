@@ -1,0 +1,44 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Set up Hertel Grillgenuss location search",
+        "description": "Enter your coordinates to find nearby Hertel Grillgenuss locations.",
+        "data": {
+          "latitude": "Latitude",
+          "longitude": "Longitude",
+          "zipcode": "Postal code filter (optional)"
+        },
+        "data_description": {
+          "latitude": "Your latitude, e.g. 49.6744",
+          "longitude": "Your longitude, e.g. 12.1489",
+          "zipcode": "Only show locations with this postal code (empty = all)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Could not connect to the website. Please check your internet connection.",
+      "unknown": "Unknown error. Please check the logs."
+    },
+    "abort": {
+      "already_configured": "This integration is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Hertel Grillgenuss options",
+        "data": {
+          "latitude": "Latitude",
+          "longitude": "Longitude",
+          "zipcode": "Postal code filter (optional)",
+          "scan_interval": "Update interval (minutes)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Could not connect to the website.",
+      "unknown": "Unknown error."
+    }
+  }
+}
